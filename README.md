@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/a53c883b-3734-4a2e-ab97-94f4278903c2)# Tecan-data-processing
+# Tecan-data-processing
 
 ## What does it do?
 
