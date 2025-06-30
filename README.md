@@ -11,8 +11,16 @@ Tecan instruments output plate measurements in excel files where the data is str
 ## How do I use this script?
 
 1. Fill the config file with necessary info (data directory, output directory, etc.)
-2. Fill the Layout.xlsx (Layout-example.xlsx file is provided)
-3. Run TECAN-ANALYSIS.R (TECAN-FUNCTIONS.R) must be in the same directory
+2. Put all your raw data files in the data directory and add the word "RAW" in their file name
+3. Fill the Layout.xlsx (Layout-example.xlsx file is provided)
+4. Run TECAN-ANALYSIS.R (TECAN-FUNCTIONS.R) must be in the same directory
+
+### Important notes
+
+- You can process as many raw data files as you want. If you gave the variables the same name in the TECAN software, they will be grouped together.
+- The timestamp is imported from the raw data files, so if you have different files from measuring your plate multiple times, you do not need to add "timepoint" or "time" to the Layout file
+- The above two comments are relevant if you *manually* sample the same plate or different plates. If you program a time loop with automatic regular measurements, TECAN will output the data in a completely different format.
+- Do not forget step 2 or the script won't be able to detect your data files
 
 ## How do I fill the Layout file?
 
