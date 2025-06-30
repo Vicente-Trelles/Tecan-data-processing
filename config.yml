@@ -1,0 +1,7 @@
+default:
+  data_dir: "the-directory-where-your-data-is-stored"
+  layout_file: "Layout-example.xlsx"
+  norm_by_OD: "Y" #Y or N
+  output_dir: "the-directory-where-you-want-your-output" # can be the same as data_dir
+  output_name: "output-file-name" # without extension
+  no_wells: 96
