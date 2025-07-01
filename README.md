@@ -13,7 +13,7 @@ Tecan instruments output plate measurements in excel files where the data is str
 1. Fill the config file with necessary info (data directory, output directory, etc.)
 2. Put all your raw data files in the data directory and add the word "RAW" in their file name
 3. Fill the Layout.xlsx (Layout-example.xlsx file is provided)
-4. Run TECAN-ANALYSIS.R (TECAN-FUNCTIONS.R) must be in the same directory
+4. Run TECAN-ANALYSIS.R (TECAN-FUNCTIONS.R must be in the same directory)
 
 ### Important notes
 
